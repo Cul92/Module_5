@@ -71,6 +71,8 @@ class UrTube:
                         time.sleep(1)
                     print("Конец видео")
                     break
+            else:
+                print('Видео с таким названием не найдено')
 
 
 ur = UrTube()
